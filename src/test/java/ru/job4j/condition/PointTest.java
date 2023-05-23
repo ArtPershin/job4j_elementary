@@ -39,10 +39,10 @@ public class PointTest {
     }
 
     @Test
-    public void when55to20then5dot830951894845301() {
-        double expected = 5.830951894845301;
-        int x1 = 5;
-        int y1 = 5;
+    public void when66to20then7dot211102550927978() {
+        double expected = 7.211102550927978;
+        int x1 = 6;
+        int y1 = 6;
         int x2 = 2;
         int y2 = 0;
         double out = Point.distance(x1, y1, x2, y2);
