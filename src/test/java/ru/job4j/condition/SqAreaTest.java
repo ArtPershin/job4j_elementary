@@ -6,17 +6,17 @@ import org.junit.Test;
 public class SqAreaTest {
 
     @Test
-        public void whenP6K2Square2() {
-            int expected = 2;
-            int p = 6;
-            double k = 2;
-            double out = SqArea.square(p, k);
-            Assert.assertEquals(expected, out, 0.01);
+    public void whenP6K2Square2() {
+        int expected = 2;
+        int p = 6;
+        double k = 2;
+        double out = SqArea.square(p, k);
+        Assert.assertEquals(expected, out, 0.01);
     }
 
     @Test
-    public void whenP7K3Square2dot296875() {
-        double expected = 2.296875;
+    public void whenP7K3Square2dot29() {
+        double expected = 2.29;
         int p = 7;
         double k = 3;
         double out = SqArea.square(p, k);
@@ -24,8 +24,8 @@ public class SqAreaTest {
     }
 
     @Test
-    public void whenP8K4Square2dot5600000000000005() {
-        double expected = 2.5600000000000005;
+    public void whenP8K4Square2dot56() {
+        double expected = 2.56;
         int p = 8;
         double k = 4;
         double out = SqArea.square(p, k);
