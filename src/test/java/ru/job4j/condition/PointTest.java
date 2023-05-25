@@ -6,7 +6,7 @@ import org.junit.Test;
 public class PointTest {
 
     @Test
-    public void when00to20then2()  {
+    public void when00to20then2() {
         double expected = 2;
         int x1 = 0;
         int y1 = 0;
@@ -17,8 +17,8 @@ public class PointTest {
     }
 
     @Test
-    public void when33to20then3dot1622776601683795() {
-        double expected = 3.1622776601683795;
+    public void when33to20then3dot16() {
+        double expected = 3.16;
         int x1 = 3;
         int y1 = 3;
         int x2 = 2;
@@ -28,8 +28,8 @@ public class PointTest {
     }
 
     @Test
-    public void when44to20then4dot47213595499958() {
-        double expected = 4.47213595499958;
+    public void when44to20then4dot47() {
+        double expected = 4.47;
         int x1 = 4;
         int y1 = 4;
         int x2 = 2;
@@ -39,8 +39,8 @@ public class PointTest {
     }
 
     @Test
-    public void when66to20then8dot602325267042627() {
-        double expected = 8.602325267042627;
+    public void when66to20then8dot60() {
+        double expected = 8.60;
         int x1 = 7;
         int y1 = 7;
         int x2 = 2;
